@@ -1,0 +1,119 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Hagz Architecture" id="hagz-arch">
+    <mxGraphModel dx="1848" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="950" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=28;fontStyle=1;fontColor=#46495D;strokeColor=none;fillColor=none;labelBackgroundColor=none;" value="Hagz - System Architecture Diagram" vertex="1">
+          <mxGeometry height="50" width="800" x="450" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ui" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;strokeWidth=2;fontColor=#46495D;fontSize=16;arcSize=4;labelBackgroundColor=none;" value="&lt;b style=&quot;font-size:20px&quot;&gt;User Interface&lt;/b&gt;&lt;hr&gt;&lt;span style=&quot;font-weight:normal&quot;&gt;Player&lt;br&gt;&lt;br&gt;Court Owner&lt;br&gt;&lt;br&gt;Administrator&lt;/span&gt;" vertex="1">
+          <mxGeometry height="710" width="210" x="20" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="acc" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;strokeWidth=2;fontColor=#46495D;fontStyle=1;fontSize=16;arcSize=10;labelBackgroundColor=none;" value="Account &amp;amp; Authentication" vertex="1">
+          <mxGeometry height="100" width="300" x="510" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cat" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;strokeWidth=2;fontColor=#46495D;fontStyle=1;fontSize=16;arcSize=10;labelBackgroundColor=none;" value="Court Catalog" vertex="1">
+          <mxGeometry height="100" width="300" x="510" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="book" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;strokeWidth=2;fontColor=#46495D;fontStyle=1;fontSize=16;arcSize=10;labelBackgroundColor=none;" value="Booking Management" vertex="1">
+          <mxGeometry height="100" width="300" x="510" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="court" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;strokeWidth=2;fontColor=#46495D;fontStyle=1;fontSize=16;arcSize=10;labelBackgroundColor=none;" value="Court Management" vertex="1">
+          <mxGeometry height="100" width="300" x="510" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="admin" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;strokeWidth=2;fontColor=#46495D;fontStyle=1;fontSize=16;arcSize=10;labelBackgroundColor=none;" value="Admin Review" vertex="1">
+          <mxGeometry height="100" width="300" x="510" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="slot" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;strokeWidth=2;fontColor=#46495D;fontStyle=1;fontSize=16;arcSize=10;labelBackgroundColor=none;" value="Slot &amp;amp; Availability" vertex="1">
+          <mxGeometry height="100" width="270" x="960" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="db" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;strokeWidth=2;fontColor=#46495D;fontSize=16;arcSize=4;labelBackgroundColor=none;" value="&lt;b style=&quot;font-size:24px&quot;&gt;D.B&lt;/b&gt;&lt;hr&gt;&lt;span style=&quot;font-weight:normal&quot;&gt;Users, Courts,&lt;br&gt;Slots, Bookings&lt;br&gt;(with status fields)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="740" width="210" x="1440" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="ui" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#788AA3;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.05634;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="acc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="ui" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#788AA3;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.28169;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="cat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="ui" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#788AA3;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.49296;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="book">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="ui" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#788AA3;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.73239;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="court">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="ui" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#788AA3;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.92958;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="admin">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="book" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#788AA3;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="slot">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="book" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#788AA3;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="court">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="acc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#788AA3;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.08108;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="cat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#788AA3;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.2973;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="book" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#788AA3;strokeWidth=2;endArrow=block;endFill=1;exitX=0.9;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.61486;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="db">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="slot" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#788AA3;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="court" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#788AA3;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.72973;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="admin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#788AA3;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.91892;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l1" parent="1" style="text;html=1;align=center;verticalAlign=bottom;whiteSpace=wrap;fontSize=12;fontColor=#46495D;strokeColor=none;fillColor=none;labelBackgroundColor=none;" value="register / login / update account / reset password" vertex="1">
+          <mxGeometry height="46" width="260" x="240" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="l2" parent="1" style="text;html=1;align=center;verticalAlign=bottom;whiteSpace=wrap;fontSize=12;fontColor=#46495D;strokeColor=none;fillColor=none;labelBackgroundColor=none;" value="search / filter / view approved courts" vertex="1">
+          <mxGeometry height="40" width="260" x="240" y="296" as="geometry" />
+        </mxCell>
+        <mxCell id="l3" parent="1" style="text;html=1;align=center;verticalAlign=bottom;whiteSpace=wrap;fontSize=12;fontColor=#46495D;strokeColor=none;fillColor=none;labelBackgroundColor=none;" value="book / cancel / view bookings / accept or reject requests" vertex="1">
+          <mxGeometry height="60" width="260" x="240" y="426" as="geometry" />
+        </mxCell>
+        <mxCell id="l4" parent="1" style="text;html=1;align=center;verticalAlign=bottom;whiteSpace=wrap;fontSize=12;fontColor=#46495D;strokeColor=none;fillColor=none;labelBackgroundColor=none;" value="add court / photos / price / slots" vertex="1">
+          <mxGeometry height="40" width="260" x="240" y="616" as="geometry" />
+        </mxCell>
+        <mxCell id="l5" parent="1" style="text;html=1;align=center;verticalAlign=bottom;whiteSpace=wrap;fontSize=12;fontColor=#46495D;strokeColor=none;fillColor=none;labelBackgroundColor=none;" value="approve / reject courts / manage users" vertex="1">
+          <mxGeometry height="40" width="260" x="240" y="756" as="geometry" />
+        </mxCell>
+        <mxCell id="l6" parent="1" style="text;html=1;align=center;verticalAlign=bottom;whiteSpace=wrap;fontSize=12;fontColor=#46495D;strokeColor=none;fillColor=none;labelBackgroundColor=none;" value="check slot on request / mark booked on accept" vertex="1">
+          <mxGeometry height="60" width="140" x="815" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="l7" parent="1" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontColor=#46495D;strokeColor=none;fillColor=none;labelBackgroundColor=none;" value="verify court ownership" vertex="1">
+          <mxGeometry height="40" width="150" x="505" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="l8" parent="1" style="text;html=1;align=center;verticalAlign=bottom;fontSize=12;fontColor=#46495D;strokeColor=none;fillColor=none;labelBackgroundColor=none;" value="save user data" vertex="1">
+          <mxGeometry height="26" width="400" x="900" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="l9" parent="1" style="text;html=1;align=center;verticalAlign=bottom;fontSize=12;fontColor=#46495D;strokeColor=none;fillColor=none;labelBackgroundColor=none;" value="courts details" vertex="1">
+          <mxGeometry height="26" width="400" x="900" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="l10" parent="1" style="text;html=1;align=center;verticalAlign=bottom;fontSize=12;fontColor=#46495D;strokeColor=none;fillColor=none;labelBackgroundColor=none;" value="save booking" vertex="1">
+          <mxGeometry height="26" width="200" x="1000" y="546" as="geometry" />
+        </mxCell>
+        <mxCell id="l11" parent="1" style="text;html=1;align=center;verticalAlign=bottom;fontSize=12;fontColor=#46495D;strokeColor=none;fillColor=none;labelBackgroundColor=none;" value="slots data" vertex="1">
+          <mxGeometry height="26" width="200" x="1235" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="l12" parent="1" style="text;html=1;align=center;verticalAlign=bottom;fontSize=12;fontColor=#46495D;strokeColor=none;fillColor=none;labelBackgroundColor=none;" value="save court data" vertex="1">
+          <mxGeometry height="26" width="400" x="900" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="l13" parent="1" style="text;html=1;align=center;verticalAlign=bottom;fontSize=12;fontColor=#46495D;strokeColor=none;fillColor=none;labelBackgroundColor=none;" value="court status / user status" vertex="1">
+          <mxGeometry height="26" width="400" x="900" y="770" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
