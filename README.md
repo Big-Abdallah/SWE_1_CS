@@ -43,10 +43,10 @@ All users can manage their own account, including updating it and resetting thei
 | Name | Role |
 |---|---|
 | عبدالله محمد السيد حسن السيد | Team Leader |
-| علي وليد محمد عبدالعزيز قورة | Member |
+| عبدالرحمن عمرو | Member |
 | عبدالله محمد عبدالباقي السيد | Member |
 | عمرو أحمد محمد عبد الرحمن صالح | Member |
-| عبدالرحمن عمرو عبدالحميد محمد | Member |
+| علي وليد كوره| Member |
 
 ## Course Info
 
